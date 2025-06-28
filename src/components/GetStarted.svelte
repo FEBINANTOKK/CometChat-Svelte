@@ -12,14 +12,15 @@
     Build and test for as long as you need. <br class="hidden md:block" />
     Pick a plan when you're ready.
   </p>
+<div class="flex flex-row justify-center items-center gap-2 flex-wrap sm:flex-nowrap">
+  <button
+    class="bg-black hover:bg-gray-900 border border-gray-700 text-white px-4 py-2 text-sm rounded-lg transition duration-300"
+  >
+    Start free trial
+  </button>
 
-  <div class="flex flex-row justify-center items-center gap-4">
-    <button
-      class="bg-black hover:bg-gray-900 border border-gray-700 text-white px-6 py-3 rounded-xl transition duration-300"
-    >
-      Start free trial
-    </button>
+  <CustomButton class="px-4 py-2 text-sm rounded-lg" text="Schedule a demo" />
+</div>
 
-    <CustomButton text="Schedule a demo" />
-  </div>
+  
 </div>
